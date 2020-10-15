@@ -36,8 +36,7 @@ board = ["X, "O, "X", "O",]
 
 def full?(board)
   board.each do |position|
-    index = position
-    if !(position_taken?(board, index))
+    if position != (position_taken?(board, index))
       return false
     end
   end
