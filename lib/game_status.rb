@@ -54,6 +54,12 @@ def over?(board)
   end
 end
 
+def winner(board)
+  won?(board)
+  return position_1
+end
+
+
 # full?(board) == true &&
 
 # if full?(board) == true && won?(board) != true
