@@ -38,5 +38,6 @@ def full?(board)
   end
   if all_true
     return true
+  end
 end
 # end
