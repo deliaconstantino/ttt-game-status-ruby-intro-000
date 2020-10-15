@@ -62,32 +62,3 @@ def winner(board)
     return board[positions_array[0]].to_s
   end
 end
-
-
-# full?(board) == true &&
-
-# if full?(board) == true && won?(board) != true
-#   return true
-# elsif full?(board) == true && won?(board) == true
-#   return false
-# elsif full?(board) == false
-#   return false
-# end
-
-  # board.each do |position|
-  #   index = board[position]
-  #   if position != (position_taken?(board, index))
-  #     return false
-  #   end
-  # end
-  # return true
-
-
-
-
-  # all_true = board.all? do |index|
-  # position_taken?(board, index)
-  # end
-  # if all_true
-  #   return true
-  # end
