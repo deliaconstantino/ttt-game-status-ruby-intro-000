@@ -36,6 +36,5 @@ def full?(board)
   all_true = board.all? do |index|
   position_taken?(board, index)
   end
-  
 end
 # end
