@@ -38,6 +38,9 @@ def full?(board)
   end
 end
 
+def draw?
+end
+
   # board.each do |position|
   #   index = board[position]
   #   if position != (position_taken?(board, index))
