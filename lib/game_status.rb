@@ -32,6 +32,8 @@ def won?(board)
   false
 end
 
+board = ["X, "O, "X", "O",]
+
 def full?(board)
   board.each do |position|
     index = board[position]
