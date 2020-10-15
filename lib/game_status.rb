@@ -61,6 +61,7 @@ def winner(board)
   end
   if positions_array = false
     return nil
+  end
 end
 
 
