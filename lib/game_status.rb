@@ -33,7 +33,7 @@ def won?(board)
 end
 
 def full?(board)
-  all_true = board.all? do |index|
+  all_true = board.none? do |index|
     if index == ("X" || "O")
     end
   end
