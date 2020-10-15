@@ -58,6 +58,7 @@ def winner(board)
   positions_array = won?(board)
   if board[positions_array[0]].to_s == ("X" || "0")
     return board[positions_array[0]].to_s
+  end
 end
 
 
