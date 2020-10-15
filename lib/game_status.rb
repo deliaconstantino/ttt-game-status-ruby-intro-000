@@ -39,10 +39,17 @@ def full?(board)
 end
 
 def draw?(board)
-  if full?(board) == false
-    return false
+  if full?(board) == true && won?(board) != true
   end
 end
+
+# if full?(board) == true && won?(board) != true
+#   return true
+# elsif full?(board) == true && won?(board) == true
+#   return false
+# elsif full?(board) == false
+#   return false
+# end
 
   # board.each do |position|
   #   index = board[position]
