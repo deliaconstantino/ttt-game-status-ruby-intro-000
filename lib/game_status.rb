@@ -37,7 +37,7 @@ def full?(board)
     if index != nil || index != " " || index != ""
     end
   end
-  if all_true = true
+  if all_true
     return true
   end
 end
