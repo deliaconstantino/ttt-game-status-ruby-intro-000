@@ -40,7 +40,7 @@ def full?(board)
       return true
     end
   end
-  if all_true
+  if all_true = true
     return true
   end
 end
