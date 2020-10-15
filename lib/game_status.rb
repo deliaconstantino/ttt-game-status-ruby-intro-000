@@ -32,8 +32,6 @@ def won?(board)
   false
 end
 
-board = ["X, "O, "X", "O",]
-
 def full?(board)
   board.each do |position|
     if position != (position_taken?(board, index))
