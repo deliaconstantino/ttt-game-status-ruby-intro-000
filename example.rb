@@ -11,6 +11,18 @@
 end
 
 alternate option
+all_x = win_combination.all? do |index|
+  board[index] == "X"
+end
+
+all_o = win_combination.all? do |index|
+  board[index] == "O"
+end
+
+if all_x || all_o
+  return win_combination
+end
+
 # win_index_1 = win_combination[0]
 # win_index_2 = win_combination[1]
 # win_index_3 = win_combination[2]
