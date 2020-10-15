@@ -40,6 +40,7 @@ def full?(board)
   if all_true
     return true
   end
+  false
 end
 
   # board.each do |position|
