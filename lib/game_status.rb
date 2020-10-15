@@ -59,7 +59,7 @@ def winner(board)
   if board[positions_array[0]].to_s == "X"|| board[positions_array[0]].to_s == "O"
     return board[positions_array[0]].to_s
   end
-  if positions_array = false
+  if positions_array == false
     return nil
   end
 end
