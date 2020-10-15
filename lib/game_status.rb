@@ -56,7 +56,7 @@ end
 
 def winner(board)
   positions_array = won?(board)
-  return board[positions_array]
+  return board[positions_array[0]].to_s
 end
 
 
