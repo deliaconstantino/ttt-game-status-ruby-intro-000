@@ -41,6 +41,7 @@ def full?(board)
     end
     count += 1
   end
+  return true
 end
 
   # all_true = board.all? do |index|
