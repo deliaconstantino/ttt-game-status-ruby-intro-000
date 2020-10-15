@@ -32,7 +32,10 @@ def won?(board)
   false
 end
 
-# def full?(board)
-#   board.all? do |index|
-# if position_taken?(board, index)
+def full?(board)
+  all_true = board.all? do |index|
+  position_taken?(board, index)
+  end
+  
+end
 # end
