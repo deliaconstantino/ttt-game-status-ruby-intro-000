@@ -33,11 +33,16 @@ def won?(board)
 end
 
 def full?(board)
-  all_true = board.all? do |index|
-  position_taken?(board, index)
-  end
-  if all_true
-    return true
-  end
+  board.each do |index|
+    if !(position_taken?(board, index))
+      return false
+    end
 end
-# end
+  
+  # all_true = board.all? do |index|
+  # position_taken?(board, index)
+  # end
+  # if all_true
+  #   return true
+  # end
+
