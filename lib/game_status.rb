@@ -37,9 +37,9 @@ def full?(board)
     if index != nil || index != " " || index != ""
     end
   end
-  end
   if all_true
     return true
+  end
 end
 
   # board.each do |position|
