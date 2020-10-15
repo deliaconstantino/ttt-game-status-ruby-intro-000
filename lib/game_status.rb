@@ -33,16 +33,16 @@ def won?(board)
 end
 
 def full?(board)
-  count = 0
   board.each do |position|
-    index = board[count]
+    index = board[position]
     if position != (position_taken?(board, index))
       return false
     end
-    count += 1
   end
   return true
 end
+
+
 
   # all_true = board.all? do |index|
   # position_taken?(board, index)
