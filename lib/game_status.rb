@@ -56,12 +56,10 @@ end
 
 def winner(board)
   positions_array = won?(board)
-  if board[positions_array[0]].to_s == "X" || board[positions_array[0]].to_s == "O"
+  if positions_array == false
+    return nil
+  elsif board[positions_array[0]].to_s == "X" || board[positions_array[0]].to_s == "O"
     return board[positions_array[0]].to_s
-  elsif full?(board) == false
-    return nil
-  elsif draw?(board) == true
-    return nil
   end
 end
 
